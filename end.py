@@ -29,7 +29,7 @@ def date():
     return f'today is {day}, {d}'
 
 # here="hey, I'm a basic chatbot!"
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("ApiKey")
 
 
 def simulate_bot_response(user_message):
